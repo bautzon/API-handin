@@ -3,7 +3,7 @@ Fun w. API
 Requirements
 1. Make it possible to save results, setting or other through JSON files.
 Parse inquiries and return answers
-"""
+
 import requests
 import npyscreen
 #import socket
@@ -97,3 +97,5 @@ dkkValue = response1['rates']['dkk']['value']
 
         print(dkkValue / coinValue)
 """
+
+
